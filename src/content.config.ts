@@ -1,3 +1,4 @@
+// @ts-ignore: virtual module provided by Astro
 import { defineCollection } from 'astro:content';
 import { docsLoader } from '@astrojs/starlight/loaders';
 import { docsSchema } from '@astrojs/starlight/schema';
