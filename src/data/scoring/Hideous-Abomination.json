@@ -1,0 +1,37 @@
+{
+    "awards": {
+        "default": {
+            "points": 3,
+            "cards": [
+                {   "name": "DONE!",        "description": "Completed Abomination"   },
+                {   "name": "SHOWY",        "description": "Most Colors"             },
+                {   "name": "TEENSY",       "description": "Fewest Tiles"            }
+            ]
+        },
+        "attributes" : {
+            "points": 2,
+            "cards": [
+                {   "name": "CHOMPY",       "description": "Most Teeth"             },
+                {   "name": "LOBEY",        "description": "Most Ears"              },
+                {   "name": "SMELLY",       "description": "Most Noses"             },
+                {   "name": "FIDDLY",       "description": "Most Digits"            },
+                {   "name": "POKEY",        "description": "Most Horns"             },
+                {   "name": "SQUINTY",      "description": "Most Eyes"              }
+            ]
+        },
+        "tiles": {
+            "points": 2,
+            "cards": [
+                {   "name": "STALKY",       "description": "Most Straight Tiles"    },
+                {   "name": "BRAINY",       "description": "Most Head Tiles"        },
+                {   "name": "CROTCHETY",    "description": "Most Crotch Tiles"      },
+                {   "name": "WAGGLY",       "description": "Most Tail Tiles"        },
+                {   "name": "FLAPPY",       "description": "Most Wing Tiles"        },
+                {   "name": "BENDY",        "description": "Most Bend Tiles"        },
+                {   "name": "BONEY",        "description": "Most Nexus Tiles"       },
+                {   "name": "HANDY",        "description": "Most Hand Tiles"        },
+                {   "name": "FOOTSY",       "description": "Most Foot Tiles"        }
+            ]
+        }
+    }
+}
