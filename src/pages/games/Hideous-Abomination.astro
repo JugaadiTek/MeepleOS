@@ -11,7 +11,7 @@
   <section class="nav">
     <nav>
       <div class="logo">
-        <a href="/"><img src="/node_modules/" alt="MeepleOS Logo" /></a>
+        <a href="/"><img src="/src/assets/logo.png" alt="MeepleOS Logo" /></a>
       </div>
       <ul>
         <li><a href="/">Home</a></li>
@@ -41,10 +41,15 @@
             <li>
               <span>Perform Action</span>
               <ul>
-                <li><b>Draw:</b> 1 Card from any pile twice.</li>
+                <li><b>Draw:</b> One Card from any pile TWICE.</li>
                 <li><b>Reveal:</b> an award tile, then do the draw action.</li>
                 <li><b>Dig:</b> Pick any two tiles from a single discard pile.</li>
-                <li><b>Steal:</b> Take any one tile from another players body. (The starting tile and any bolted tiles cannot be stolen)</li>
+                <li><b>Steal:</b>
+                  <ol>
+                    <li>Take any one tile from another players body.<br/> <i>(The starting tile and any bolted tiles cannot be stolen)</i></li>
+                    <li>Give 2 Bolts to the player whose tile was stolen.</li>
+                  </ol>
+                </li>
                 <li><b>Go Mad:</b> Do any action from above.</li>
               </ul>
             </li>
@@ -54,6 +59,9 @@
         </div>
         <div class="player-reference">
           <h2>Player Reference</h2>
+          <ul>
+            <li><b>Bolts:</b> must be played immediately if able.</li>
+          </ul>
         </div>
         <div class="game-reference">
           <h2>Game Reference</h2>
@@ -104,5 +112,28 @@
   }
   a, a:visited {
     color: var(--c02);
+  }
+  b {
+    color: var(--c02);
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  i {
+    color: var(--c03);
+    font-style: italic;
+    font-weight: 100;
+  }
+  .nav {
+    background: var(--c05);
+    padding: 10px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer {
+    background: var(--c06);
+    min-height: 300px;
   }
 </style>
