@@ -1,0 +1,42 @@
+{
+    "body-parts": {
+        "count": 190,
+        "breakdown": {
+            "colors": {
+                "colors": [
+                    {"name": "Pink"},
+                    {"name": "Red"},
+                    {"name": "Orange"},
+                    {"name": "Yellow"},
+                    {"name": "Green"},
+                    {"name": "Teal"},
+                    {"name": "Blue"},
+                    {"name": "Purple"},
+                    {"name": "Grey"},
+                    {"name": "Wild"}
+                ]
+            }
+        }
+    },
+    "torso": {
+        "count": 9
+    },
+    "dice": {
+        "d6": {
+            "count": 1,
+            "sides": ["Draw", "Draw", "Reveal", "Dig", "Steal", "Go Mad"]
+        }
+    },
+    "blank-tiles": {
+        "count": 10
+    },
+    "bolts": {
+        "count": 30
+    },
+    "score-cards": {
+        "count": 24
+    },
+    "reference-cards": {
+        "count": 4
+    }
+}
