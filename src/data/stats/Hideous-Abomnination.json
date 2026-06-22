@@ -15,6 +15,29 @@
                     {"name": "Grey"},
                     {"name": "Wild"}
                 ]
+            },
+            "types": {
+                "types": [
+                    {"name": "Head"},
+                    {"name": "Crotch"},
+                    {"name": "Tail"},
+                    {"name": "Wing"},
+                    {"name": "Bend"},
+                    {"name": "Nexus"},
+                    {"name": "Hand"},
+                    {"name": "Foot"},
+                    {"name": "Straight"}
+                ]
+            },
+            "attributes": {
+                "attributes": [
+                    {"name": "Teeth"},
+                    {"name": "Ears"},
+                    {"name": "Noses"},
+                    {"name": "Digits"},
+                    {"name": "Horns"},
+                    {"name": "Eyes"}
+                ]
             }
         }
     },
